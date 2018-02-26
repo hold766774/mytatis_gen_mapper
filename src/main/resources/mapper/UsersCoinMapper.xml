@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dudu.dao.UsersCoinMapper">
+  <resultMap id="BaseResultMap" type="com.dudu.domain.UsersCoin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="coin" jdbcType="INTEGER" property="coin" />
+  </resultMap>
+</mapper>
